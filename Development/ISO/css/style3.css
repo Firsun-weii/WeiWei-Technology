@@ -1,0 +1,323 @@
+*{
+	padding:0px;
+	margin:0px;
+	text-decoration: none;
+	font-family: 'Arial';
+	font-family: '楷体';
+}
+
+
+/*
+头部样式
+*/
+.header{
+	width:1480px;
+	height:248px;
+	margin-left:25px;
+	margin-top:10px;
+	background-image: url(../images/header_bg.jpg);
+	background-size: 1480px 248px;
+	background-repeat: no-repeat;
+	/*background-size: 1480px 300px;*/
+}
+
+#logo{
+	width: 1430px;
+	height: 60px;
+	margin-left: 50px;
+}
+
+#banner{
+	width: 1480px;
+	height: 138px;
+}
+
+h6{
+	margin-left: 1250px;
+}
+
+h6 a{
+	color: red;
+}
+
+#nav{
+	width: 1480px;
+	height: 50px;
+	background-image: url(../images/nav_bg.gif);
+}
+
+#nav ul li a{
+	color: yellow;
+	font-family: '宋体';
+}
+
+#input{
+	margin-left: 200px;
+	margin-top: 20px;
+}
+
+#ul1{
+	list-style: none;
+    
+}
+
+#ul1 li{
+	height: 24px;
+	float: left;
+	margin-left: 100px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	/*border: 1px solid blue;
+	background-color:#f15b6c;*/
+	padding: 10px;
+}
+
+#ul1 li a{
+	color: yellow;
+	font-family: '微软雅黑'；
+}
+
+#ul2{
+	list-style: none;
+	float: left;
+	position: absolute;
+	top: 256px;
+	left: 125px;
+	display: none;
+}
+
+#ul2 li{
+	height: 24px;
+	padding: 10px;
+	border: 1px solid blue;
+	background-color:#f15b6c;
+}
+#ul1 a:hover #ul2{
+    display: inline;
+}
+
+#ul3 {
+	list-style: none;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    display: none;
+}
+
+#ul3 li{
+     float: none;
+}
+
+.input{
+	margin-left: 200px;
+	margin-top: 16px;
+}
+
+.input1{
+    margin-top: 15px;
+}
+
+
+/*
+内容样式
+*/
+.content{
+	width: 1480px;
+	height: 500px;
+	margin-left: 25px;
+}
+
+#content_left{
+	width: 400px;
+	height: 460px;
+	padding-bottom: 20px;
+    padding-top: 20px;
+	background-image: url(../images/header_bg1.png);
+	background-size: 400px 500px;
+	float: left;
+}
+
+#content_left h3{
+    text-align: center;
+    font-family: '华文琥珀';
+    color: #00FFFF;
+}
+
+#content_left ul{
+	margin-left: 50px;
+	margin-top: 20px;
+	height: 50px;
+}
+
+#content_left ul li{
+	margin-top: 8px;
+	color: red;
+}
+
+#content_left ul li a{
+	font-family: '华文仿宋';
+	color: #FF1493;
+}
+
+#content_left h5{
+	float: right;
+	margin-right: 20px;
+}
+
+#apple{
+	width: 300px;
+	height: 200px;
+	padding-left: 50px;
+	padding-top: 120px;
+}
+
+#apple img{
+    width: 300px;
+	height: 200px;
+}
+
+#apple h1{
+	text-align: center;
+	color: yellow;
+}
+
+#content_middle{
+	width: 680px;
+	height: 460px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-image: url(../images/header_bg.png);
+	background-size: 680px 500px;
+	float: left;
+}
+
+#content_middle h1{
+	color: red;
+}
+
+#content_middle p{
+    text-align: left;
+    color: #66FF66;
+    margin: 10px;
+    line-height: 40px;
+    text-indent: 2em;
+    font-family: '华文行楷';
+
+}
+
+
+#content_right{
+	width: 400px;
+	height: 460px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+	background-image: url(../images/content-right-bg1.png);
+	background-size: 400px 500px;
+	float: left;
+	background-color: red;
+
+}
+
+#content_right h3{
+    text-align: center;
+    font-family: '华文琥珀';
+    color: #00FFFF;
+}
+
+#content_right ol{
+	height: 100px;
+	margin-left: 50px;
+	margin-top: 20px;
+	height: 50px;
+}
+
+#content_right ol li{
+	margin-top: 8px;
+	color: red;
+}
+
+#content_right ol li a{
+	font-family: '华文仿宋';
+	color: 	#B22222;
+}
+
+#form{
+	height: 50px;
+	margin-top: 50px;
+}
+
+#content_right h5{
+	margin-top: 30px;
+	margin-left: 33px;
+}
+
+.pinglun{
+	margin-left: 33px;
+	margin-top: 2px;
+	background-color: #00FFFF;
+	color: #0000FF;
+}
+
+#apple1{
+	width: 300px;
+	height: 200px;
+	padding-left: 50px;
+
+}
+
+#apple1 img{
+    width: 300px;
+	height: 150px;
+	margin-top: 25px;
+}
+
+#apple1 h1{
+	text-align: center;
+	color: yellow;
+}
+
+
+/*
+尾部样式
+*/
+.footer{
+	width:1480px;
+	height:125px;
+	margin-left: 25px;
+	background-image: url(../images/foot_bg.jpg);
+	background-size: 1480px 200px;
+	color:yellow;	
+}
+
+.footer p{
+	text-align: center;
+	margin: 10px;
+	font-family: '楷体';
+}
+
+.footer h3{
+	text-align: center;
+	padding-top: 40px;
+}
+
+.footer ul{
+	margin-left: 500px;
+	margin-top: 15px;
+    float: left;
+	list-style: none;
+}
+
+.footer ul li{
+
+	float: left;
+	margin-left: 20px;
+}
+
+.footer a{
+	color: red;
+	font-family: '华文彩云';
+}
+
+h3{
+	font-family: '华文行楷';
+}

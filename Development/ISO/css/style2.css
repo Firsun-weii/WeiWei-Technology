@@ -1,0 +1,215 @@
+*{
+	padding:0px;
+	margin:0px;
+	text-decoration: none;
+	font-family: 'Arial';
+	font-family: '楷体';
+}
+
+
+/*
+头部样式
+*/
+.header{
+	width:1480px;
+	height:248px;
+	margin-left:25px;
+	margin-top:10px;
+	background-image: url(../images/header_bg.jpg);
+	background-size: 1480px 248px;
+	background-repeat: no-repeat;
+	/*background-size: 1480px 300px;*/
+}
+
+#logo{
+	width: 1430px;
+	height: 60px;
+	margin-left: 50px;
+}
+
+#banner{
+	width: 1480px;
+	height: 138px;
+}
+
+h6{
+	margin-left: 1280px;
+}
+
+h6 a{
+	color: red;
+}
+
+#nav{
+	width: 1480px;
+	height: 50px;
+	background-image: url(../images/nav_bg.gif);
+}
+
+#nav ul{
+	list-style: none;
+}
+
+#nav ul li{
+	height: 24px;
+	float: left;
+	margin-left: 100px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	/*border: 1px solid blue;
+	background-color:#f15b6c;*/
+	padding: 10px;
+}
+
+#nav ul li a{
+	color: yellow;
+	font-family: '宋体';
+}
+
+.input{
+	margin-left: 200px;
+	margin-top: 16px;
+}
+
+.input1{
+    margin-top: 15px;
+}
+
+/*
+内容样式
+*/
+.content{
+	width: 1480px;
+	height: 500px;
+	margin-left: 25px;
+	background-color: red;
+}
+
+#content_left{
+	width: 740px;
+	height: 460px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+	background-image: url(../images/header_bg1.png);
+	background-size: 780px 500px;
+	float: left;
+}
+
+#content_left ul{
+	list-style-position: inside;
+	margin: 20px;
+	margin-top: 40px;
+	float: left;
+}
+
+#content_left li{
+	width: 400px;
+	margin-bottom: 10px;
+	color: red;
+}
+
+#content_left li a{
+	 color: yellow;
+	 font-family: '楷体';
+}
+
+#content_left li h5{
+	float: right;
+}
+
+.ios{
+	width: 150px;
+	height: 110px;
+	float: left;
+	margin:20px;
+	margin-left: 60px;
+	background-color: red
+}
+
+.ios h4{
+    text-align: center;
+    color: yellow;
+    font-family: '华文新魏';
+}
+
+.ios img{
+	width: 150px;
+	height: 110px;
+}
+
+.ios2{
+	width: 200px;
+	height: 190px;
+	margin-top: 30px;
+	margin-left: 30px;
+	float: left;
+}
+
+.ios2 img{
+	width: 200px;
+	height: 190px;
+}
+
+.ios2 h3{
+	text-align: center;
+	color: orange;
+	font-family: '华文行楷';
+}
+
+
+#content_right{
+	width: 740px;
+	height: 460px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+	background-image: url(../images/content-right-bg1.png);
+	background-size: 740px 500px;
+	float: left;
+
+}
+
+
+/*
+尾部样式
+*/
+.footer{
+	width:1480px;
+	height:125px;
+	margin-left: 25px;
+	background-image: url(../images/foot_bg.jpg);
+	background-size: 1480px 200px;
+	color:yellow;	
+}
+
+.footer p{
+	text-align: center;
+	margin: 10px;
+	font-family: '楷体';
+}
+
+.footer h3{
+	text-align: center;
+	padding-top: 40px;
+}
+
+.footer ul{
+	margin-left: 500px;
+	margin-top: 15px;
+    float: left;
+	list-style: none;
+}
+
+.footer ul li{
+
+	float: left;
+	margin-left: 20px;
+}
+
+.footer a{
+	color: red;
+	font-family: '华文彩云';
+}
+
+h3{
+	font-family: '华文行楷';
+}
