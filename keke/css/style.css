@@ -1,9 +1,9 @@
 .head{
 	width: 1500px;
-	height: 1000px;
+	height: 1100px;
 	border: 1px yellow solid;
 	background-image: url(../images/4.jpg);
-	background-size: 1500px 1000px;
+	background-size: 1500px 1100px;
 }
 
 h1{
