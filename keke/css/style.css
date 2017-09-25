@@ -1,0 +1,21 @@
+.head{
+	width: 1500px;
+	height: 900px;
+	border: 2px yellow solid;
+	background-image: url(../images/4.jpg);
+	background-size: 1500px 900px;
+}
+
+h1{
+	margin-left: 600px;
+	margin-top: 200px;
+	font-size: 60px;
+	font-family: '华文彩云';
+	color: red;
+}
+
+h2{
+	margin-left: 610px;
+	font-family: '华文琥珀';
+	color: blue;
+}
