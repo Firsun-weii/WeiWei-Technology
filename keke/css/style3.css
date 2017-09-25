@@ -1,0 +1,34 @@
+.ri{
+	width: 1500px;
+	height: 950px;
+	margin: 15px;
+}
+.tupian{
+	width: 1480px;
+	height: 950px;
+	float: left;
+	border: 2px blue solid;
+}
+
+.tupian img{
+	margin-top: 4px;
+	width: 1470px;
+	height: 880px; 
+	margin-left: 4px;
+}
+
+.tupian h2{
+	text-align: center;
+	padding-top: 1px;
+}
+
+#tu{
+	width: 732px;
+	height: 880px;
+}
+
+#one{
+	font-size: 30px;
+	margin-left: 900px;
+	color: red;
+}
