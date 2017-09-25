@@ -1,14 +1,14 @@
 .head{
 	width: 1500px;
-	height: 900px;
-	border: 2px yellow solid;
+	height: 1000px;
+	border: 1px yellow solid;
 	background-image: url(../images/4.jpg);
-	background-size: 1500px 900px;
+	background-size: 1500px 1000px;
 }
 
 h1{
 	margin-left: 600px;
-	margin-top: 200px;
+	margin-top: 250px;
 	font-size: 60px;
 	font-family: '华文彩云';
 	color: red;
